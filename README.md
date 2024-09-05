@@ -4,3 +4,5 @@ Name: Akash Datta
 Reg. No.: RA2411030010002
 Year: 1
 Created the page using html and css which can also be accessed in the following link:-
+
+https://shinyacash.github.io/robocon-submission-RA2411030010002/
