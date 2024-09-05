@@ -1,2 +1,2 @@
-# robocon-submission-RA2411030010002
-My webdev project submission for robocon recruitment
+# Robocon Submission (Webdev)
+Created the page using html and css which can also be accessed in the following link:-
