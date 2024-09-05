@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+	background-color: white;
+}
+
+header {
+	position: absolute;
+	top: 13.5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #000;
+	width: 70.5vw;
+	padding-inline: 15vw;
+	padding-top: 1vh;
+	margin: -1vw;
+	padding-bottom: 1vh;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+	font-family: "SUSE", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.logo1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 10vh;
+	padding-inline: 15vw;
+}
+
+.login-btn {
+	position:absolute;
+	top: 3%;
+	right: 15vw;
+	background-color: #ff0000;
+	color: #fff;
+	padding: 10px 25px;
+	border: none;
+	border-radius: 7px;
+	cursor: pointer;
+	font-family: "SUSE", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.slogan {
+	position: absolute;
+	font-size: 4rem;
+	padding-top: 9vw;
+	padding-inline: 22vw;
+	max-width: 400px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	z-index: 0;
+}
+
+.logo2 {
+	position: absolute;
+	padding-inline: 20vw;
+	padding-top: 5vw;
+	z-index: -1;
+	right: 0px;
+	max-height: 315px;
+	height: 15vw;
+}
+
+.back {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	overflow: hidden;
+	z-index: 1;
+	background-color: black;
+	width: 100vw;
+	height: 50vh;
+}
+
+.stuff2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 50vh;
+	gap: 5vh;
+	padding-inline: 20vw;
+}
+
+.card1 {
+	z-index: 2;
+	max-width: 350px;
+	height: 280px;
+	border-radius: 0.5rem;
+	background-color: #fff;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+	border: 1px solid transparent;
+}
+
+.content {
+	padding: 1.1rem;
+}
+
+.image {
+	object-fit: cover;
+	width: 100%;
+	height: 150px;
+	background-color: rgb(102, 153, 233);
+	border-radius: 4% 4% 0% 0%;
+}
+
+
+
+.desc {
+	margin-top: 0.5rem;
+	color: #6B7280;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+}
+
+.card2 {
+	z-index: 2;
+	max-width: 350px;
+	height: 280px;
+	border-radius: 0.5rem;
+	background-color: #fff;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+	border: 1px solid transparent;
+}
+
+
+.content2 {
+	padding: 1.1rem;
+}
+
+.image2{
+	object-fit: cover;
+	width: 100%;
+	height: 150px;
+	background-color: rgb(224, 70, 70);
+	border-radius: 4% 4% 0% 0%;
+}
+
+.desc2 {
+	margin-top: 0.5rem;
+	color: #6B7280;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+}
+
+.card3 {
+	z-index: 2;
+	max-width: 350px;
+	height: 280px;
+	border-radius: 0.5rem;
+	background-color: #fff;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+	border: 1px solid transparent;
+}
+
+.content3 {
+	padding: 1.1rem;
+}
+
+.image3 {
+	object-fit: cover;
+	width: 100%;
+	height: 150px;
+	background-color: rgb(154, 246, 252);
+	border-radius: 4% 4% 0% 0%;
+}
+
+.desc3 {
+	margin-top: 0.5rem;
+	color: #6B7280;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+}
